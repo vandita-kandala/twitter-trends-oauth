@@ -1,0 +1,83 @@
+.main{
+  background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url('../assets/images/backdrop.png');
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.tweet-dp {
+  margin-bottom: 10px;
+}
+
+.tweet-name {
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.tweet-body {
+  padding: 10px;
+  margin-bottom: 10px;
+  min-height: 150px;
+}
+
+.tweet-display {
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px 40px 20px 40px;
+  padding: 15px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.row-spacing {
+  clear: both;
+}
+
+.tweet-footer {
+  color: gray;
+}
+
+.search {
+  background: #fff;
+  border-radius: 100px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .3);
+  margin: -25px auto 0;
+  padding: 15px;
+  position: relative;
+  max-width: 1170px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+.hero-text-box {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+h1{
+  margin-bottom: 30px;
+  left: 80%;
+  font-weight: 300;
+  font-size: 60px;
+  color: white;
+}
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  width: 300px;
+  color: white;
+  font-size: 16px;
+}
+
+

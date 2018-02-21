@@ -1,0 +1,37 @@
+
+  <form class="">
+    <div class="row main">
+
+      <div class="hero-text-box">
+        <h1 class="typing-element"></h1>
+        <input id="hashtags" type="text" [(ngModel)]="searchquery" [ngModelOptions]="{standalone: true}">
+        <button class="waves-effect waves-light btn" (click)="searchcall()">Search</button>
+      </div>
+    </div>
+
+
+<!--testing-->
+    <div class="container search">
+
+    <div class="row">
+      <div *ngFor="let item of tweetsdata">
+        <div class="col-md-3 col-sm-3 tweet-display">
+          <div class="tweet-dp">
+            <img class="tweet-img" src={{item.user.profile_image_url}}><span class="tweet-name">{{item.user.name}}</span>
+          </div>
+          <hr>
+          <div class="tweet-body">
+            <p>{{item.text}}</p>
+          </div>
+          <div class="tweet-footer">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </form>
+
+
+
